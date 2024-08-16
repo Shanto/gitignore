@@ -30,7 +30,7 @@ jobs:
       - name: Concatenate files
         uses: ftnext/action-concatenate-files@v1.0.1
         with:
-          sources: Python.gitignore Node.gitignore
+          sources: Global/macOS.gitignore Global/Windows.gitignore Python.gitignore Node.gitignore
           destination: Meta.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
